@@ -1,0 +1,98 @@
+.offer{
+    padding: 5.2857rem 2.1428rem 0 2.1428rem;
+    width: 26.7857rem;
+    background: $mainBackground;
+    @media only screen and (min-width: 1440px) {
+        padding: 5.2857rem 2.1428rem 0 2.1428rem;
+    width: 102.8571rem;
+    
+}
+    &__hero{
+        width: 21.8571rem;
+        margin-left: 0.4rem;
+        margin-top: -0.3rem;
+
+        @media only screen and (min-width: 1440px) {
+           display: inline-block;
+           margin-left: 5.3rem;
+           margin-top: -2rem;
+           width: 43.9rem;
+        }
+
+    }
+
+    
+    &__info{
+        @media only screen and (min-width: 1440px) {
+            display: inline-block;
+            margin-left: 3.9rem;
+         }
+    }
+    h2{
+        text-align: center;
+        padding-top: 3.2rem;
+        font-family: $relaway;
+        font-size: 1.29rem;
+        margin-left: -1.5rem;
+
+        @media only screen and (min-width: 1440px) {
+            text-align: left;
+            font-size: 2.85rem;
+            position: relative;
+            top: -6.6rem;
+            width: 28rem;
+            padding-top: 0rem;
+            margin-left: 0rem;
+            line-height: 3.5rem;
+
+         }
+    }
+
+    &__text{
+        padding-top: 1.3rem;
+        line-height: 1.45rem;
+        width: 23rem;
+        font-size: 0.99rem;
+
+        @media only screen and (min-width: 1440px) {
+            position: relative;
+            top: -6.4rem;
+            width: 40rem;
+            font-size: 1.1rem;
+            line-height: 1.65rem;
+            letter-spacing: 0.25px;
+
+         }
+    }
+    a{
+        text-decoration: none;
+        padding-bottom: 0.25rem;
+        color: $cyan;
+        font-size: 0.9rem;
+        border-bottom: solid 1px $cyan;
+
+        @media only screen and (min-width: 1440px) {
+            position: relative;
+            top: -5.7rem;
+            font-size: 1.1rem;
+            padding-bottom: 0.4rem;
+            letter-spacing: 0.2px;
+
+         }
+
+         &:hover{
+             color: $white;
+             border-bottom: solid 1px $white;
+             filter: saturate(0);
+         }
+    }
+    &__arrow{
+        position: relative;
+        top: 0.25rem;
+        left: 0.25rem;
+        padding-top: 1rem;
+        @media only screen and (min-width: 1440px) {
+            left: 0.5rem;
+        }
+    }
+}

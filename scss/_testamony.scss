@@ -1,0 +1,107 @@
+.testamony{
+    padding: 11.3285rem 3.4285rem 0 3.4285rem;
+    background: $mainBackground;
+    width: 26.7857rem;
+
+    @media only screen and (min-width: 1440px) {
+        padding: 9.8285rem 3.4285rem 0 10rem;
+        width: 102.8571rem;
+    }
+
+    img{
+        position: relative;
+        left: 0.4rem;
+        width: 1.5714rem;
+        @media only screen and (min-width: 1440px) {
+            width: 3.8571rem;
+            left: -0.5rem;
+        }
+    }
+    &__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+
+        @media only screen and (min-width: 1440px) {
+            margin-top: -1rem;
+        }
+    }
+
+
+
+
+    &__card{
+        padding: 1.5rem;
+        border-radius: 0.5rem;
+        background: $testimonialsBackground;
+        margin-bottom: 1.7142rem;
+        flex: 0 0 100%;
+        @media only screen and (min-width: 1440px) {
+          flex: 0 0 25.7rem;
+          margin-right: 2.8rem;
+          padding: 2.9rem 2rem 1.6rem 1.95rem;
+          position: relative;
+          z-index: 1;
+          -webkit-box-shadow: 8px 5px 0px 5px hsl(218, 28%, 14%); 
+box-shadow: 8px 5px 0px 5px hsl(218, 28%, 14%);
+        }
+        
+
+        p{
+            font-size: 0.701rem;
+            line-height: 1.3rem;
+            @media only screen and (min-width: 1440px) {
+                font-size: 1rem;
+                line-height: 1.5rem;
+                letter-spacing: 0.45px;
+
+
+            }
+        }
+    }
+
+    &__signature{
+        padding-top: 1rem;
+        img{
+            margin-left: -0.5rem;
+            display: inline-block;
+            width: 1.7857rem;
+            border-radius: 50%;
+
+            @media only screen and (min-width: 1440px) {
+                margin-top: 0.8rem;
+                margin-left: 0.4rem;
+            }
+        }
+        div{
+            position: relative;
+            top: -0.15rem;
+            padding-left: 0.75rem;
+            display: inline-block;
+
+            @media only screen and (min-width: 1440px) {
+                margin-left: -1rem;
+            }
+
+            h3{
+                margin-top: 0.3rem;
+                font-size: 0.7142rem;
+                padding-bottom: 0.1rem;
+                letter-spacing: 0.3px;
+                @media only screen and (min-width: 1440px) {
+                    letter-spacing: 0.5px;
+                    padding-bottom: 0.25rem;
+                }
+            }
+
+            h4{
+                font-size: 0.5rem;
+                font-weight: 400;
+                letter-spacing: 1px;
+
+                @media only screen and (min-width: 1440px) {
+                    font-size: 0.5rem;
+                }
+            }
+        }
+    }
+}

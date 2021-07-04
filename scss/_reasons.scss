@@ -1,0 +1,102 @@
+.reasons {
+    padding: 9.2rem 2.1428rem 0 2.1428rem;
+    background: $mainBackground;
+    width: 26.7857rem;
+    display: flex;
+    flex-wrap: wrap;
+
+    @media only screen and (min-width: 1440px) {
+        width: 102.8571rem;
+        margin-top: -1.8rem;
+        padding: 0 0 0 14.1428rem;
+        z-index: 4;
+    }
+
+    &__card {
+        text-align: center;
+        padding-bottom: 6.2857rem;
+        flex: 0 0 100%;
+
+        @media only screen and (min-width: 1440px) {
+            flex: 0 0 41.4%;
+            
+            &-four{
+                margin-left: 0.66rem;
+            }
+        }
+    }
+
+    &__header{
+        padding-top: 2.25rem;
+        font-family: $relaway;
+        font-size: 1.3214rem;
+        @media only screen and (min-width: 1440px) {
+            margin-left: 0rem;
+            letter-spacing: 0.6px;
+
+            &-three{
+                margin-top: -0.2rem;
+                margin-left: 0.9rem;
+            }
+        }
+    }
+    &__img {
+        height: 4.2rem;
+        @media only screen and (min-width: 1440px) {
+            height: 5.6rem;
+            margin-bottom: -0.4rem;
+        }
+
+        &-two {
+            height: 4.8rem;
+            margin-bottom: -0.5rem;
+            @media only screen and (min-width: 1440px) {
+                height: 6rem;
+                margin-top: -0.2rem
+            }
+
+
+        }
+        &-three {
+            height: 4.2rem;
+            @media only screen and (min-width: 1440px) {
+                height: 5.2rem;
+                margin-left: 1rem;
+                margin-top: 0.35rem;
+            }
+        }
+        &-four {
+            margin-top: 0.4rem;
+            height: 3.6rem;
+            margin-bottom: 0.4rem;
+
+            @media only screen and (min-width: 1440px) {
+                height: 4.6rem;
+                margin-top: 0.6rem;
+                margin-bottom: 0.15rem;
+            }
+        }
+    }
+
+    &__text {
+        padding-top: 0.75rem;
+        line-height: 1.5rem;
+        width: 22.7857rem;
+        @media only screen and (min-width: 1440px) {
+            padding-top: 0.71rem;
+            width: 25rem;
+            margin-left: 5.72rem;
+
+            &-two{
+                margin-top: -0.1rem;
+                width: 28rem; 
+                margin-left: 4.22rem;
+            }
+
+            &-three{
+                width: 26rem;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,109 @@
+.hero {
+    background: $introBackground;
+    width: 26.7857rem;
+    height: auto;
+    padding-top: 4rem;
+
+    @media only screen and (min-width: 1440px) {
+        width: 102.8571rem;
+        height: auto;
+    }
+
+    &__img {
+        display: block;
+        margin: auto;
+        width: 21.7142rem;
+        position: relative;
+        z-index: 1;
+        top: -0.5rem;
+
+        @media only screen and (min-width: 1440px) {
+            width: 51.5rem;
+            top: 0.2rem;
+        }
+    }
+    &__curve {
+        margin-top: -3.5rem;
+        &-mobile {
+            display: block;
+            @media only screen and (min-width: 1440px) {
+                display: none;
+            }
+        }
+        &-desktop {
+            display: none;
+            @media only screen and (min-width: 1440px) {
+                display: block;
+                margin-top: 8.3rem;
+            }
+        }
+    }
+
+    &__bg {
+        height: 15.8571rem;
+        background: $mainBackground;
+        text-align: center;
+        position: relative;
+        @media only screen and (min-width: 1440px) {
+            height: 1px;
+        }
+
+        h1 {
+            position: relative;
+            top: -4.7rem;
+            line-height: 2.45rem;
+            font-size: 1.7142rem;
+            font-family: $relaway;
+            width: 22rem;
+            display: block;
+            margin: auto;
+
+            @media only screen and (min-width: 1440px) {
+                top: -37.6rem;
+                font-size: 2.7142rem;
+                width: 55rem;
+                line-height: 4.4rem;
+                letter-spacing: 1px;
+            }
+        }
+    }
+
+    &__text {
+        position: relative;
+        top: -3.25rem;
+        font-weight: 300;
+        line-height: 1.5rem;
+        width: 21rem;
+        display: block;
+        margin: auto;
+
+        @media only screen and (min-width: 1440px) {
+            top: -35.5rem;
+            font-size: 1.4142rem;
+            width: 45rem;
+            line-height: 2.2rem;
+            letter-spacing: 0.1px;
+        }
+    }
+
+    &__btn {
+        position: relative;
+        top: -1rem;
+        width: 17.1428rem;
+        height: 3.4285rem;
+        border-radius: 1.7142rem;
+        background: $gradient;
+        border: 0;
+
+        @media only screen and (min-width: 1440px) {
+            top: -33.5rem;
+            width: 20rem;
+            height: 4rem;
+            letter-spacing: 1px;
+        }
+
+        &:hover{
+            background: $cyan;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.nav {
+    background: $introBackground;
+    width: 26.7857rem;
+    height: 3.4284rem;
+    padding: 1.7142rem 1.7142rem 0 1.4285rem;
+
+    @media only screen and (min-width: 1440px) {
+        width: 102.8571rem;
+        height: 10rem;
+        padding: 5.3rem 1.7142rem 0 5.7285rem;
+    }
+
+
+    img {
+        height: 1.6842rem;
+        @media only screen and (min-width: 1440px) {
+            height: 3.6842rem;
+        }
+    }
+    ul {
+        float: right;
+        text-decoration: none;
+        @media only screen and (min-width: 1440px) {
+            margin-top: 1.1rem;
+            margin-right: 4rem;
+
+        }
+    }
+
+    li {
+        display: inline-block;
+        margin-left: 1.75rem;
+        @media only screen and (min-width: 1440px) {
+            margin-left: 3.83rem;
+            letter-spacing: 1.05px;
+        }
+
+        a {
+            color: $white;
+            font-size: 0.8071rem;
+            text-decoration: none;
+            font-family: $relaway;
+            @media only screen and (min-width: 1440px) {
+                font-size: 1rem;
+
+            }
+
+            &:hover{
+                text-decoration: underline;
+                font-weight: 700;
+            }
+        }
+    }
+}

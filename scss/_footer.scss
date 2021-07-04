@@ -1,0 +1,200 @@
+.footer {
+    background: $footerBackground;
+    width: 26.7857rem;
+    height: auto;
+    margin-top: -12.5714rem;
+    padding: 17.8571rem 2rem 0 2rem;
+
+    @media only screen and (min-width: 1440px) {
+        margin-top: -8rem;
+        padding: 14rem 2.5rem 0 8rem;
+        width: 102.8571rem;
+        height: 36.5rem;
+    }
+
+    &__logo {
+        width: 12.6428rem;
+        margin-left: 0.7857rem;
+        margin-bottom: 2.4rem;
+
+        @media only screen and (min-width: 1440px) {
+            width: 12rem;
+            margin-left: 0.7857rem;
+            margin-bottom: 2.4rem;
+        }
+    }
+
+    &__partOne {
+        @media only screen and (min-width: 1440px) {
+            position: relative;
+            width: 40rem;
+        }
+    }
+
+    &__partTwo {
+        @media only screen and (min-width: 1440px) {
+            position: relative;
+            top: -6.3rem;
+            left: 33.3rem;
+            width: 40rem;
+        }
+    }
+
+    
+    &__marker-location {
+        position: relative;
+        top: -4.3rem;
+        @media only screen and (min-width: 1440px) {
+            top: -3rem;
+            left: 0.7rem;
+        }
+    }
+
+    &__marker-phone {
+        position: relative;
+        width: 0.9rem;
+        left: 0.2rem;
+        @media only screen and (min-width: 1440px) {
+            width: 1.3rem;
+            left: 0.3rem;
+            top: 0.2rem;
+        }
+    }
+
+    &__marker-mail {
+        position: relative;
+        top: 0.3rem;
+        left: 0.2rem;
+        @media only screen and (min-width: 1440px) {
+            top: 0.3rem;
+        }
+    }
+
+
+    &__location {
+        display: inline-block;
+        width: 19rem;
+        margin-top: 0.2rem;
+        margin-left: 1.7rem;
+        margin-bottom: 1.1rem;
+        font-size: 1.1rem;
+        line-height: 1.55;
+        @media only screen and (min-width: 1440px) {
+            margin-top: -0.2rem;
+            margin-left: 2.3rem;
+            font-size: 1.1rem;
+            width: 25rem;
+            letter-spacing: 0.3px;
+        }
+
+    }
+
+    &__phone{
+        display: inline-block;
+        width: 19rem;
+        margin-left: 1.6rem;
+        margin-bottom: 1.1rem;
+        font-size: 1rem;
+        line-height: 1.55;
+
+        @media only screen and (min-width: 1440px) {
+            margin-left: 1.9rem;
+            font-size: 1rem;
+        }
+
+    }
+
+    &__mail{
+        display: inline-block;
+        width: 19rem;
+        margin-top: 0.3rem;
+        margin-left: 1.1rem;
+        margin-bottom: 1.1rem;
+        font-size: 1rem;
+        line-height: 1.55;
+
+        @media only screen and (min-width: 1440px) {
+            margin-left: 1.7rem;
+            margin-top: -0.1rem;
+            font-size: 1rem;
+
+        }
+
+    }
+
+    &__about{
+        @media only screen and (min-width: 1440px) {
+            position: relative;
+            top: -16.4rem;
+            left: 56rem;
+            width: 10rem;
+        }
+    }
+
+    &__contact {
+        @media only screen and (min-width: 1440px) {
+            position: relative;
+            top: - 29.3rem;
+            left: 66.6rem;
+            width: 10rem;
+        }
+    }
+    &__nav {
+        padding-top: 2.1rem;
+        margin-left: -0.7rem;
+        @media only screen and (min-width: 1440px) {
+          height: 1px;
+        }
+    }
+
+    ul {
+        list-style: none;
+        margin: 2.1rem 0;
+        font-size: 0.8571rem;
+    }
+
+    li {
+        padding: 0.69rem;
+        letter-spacing: 1px;
+        width: 8rem;
+
+        &:hover{
+            font-weight: 700;
+            cursor: pointer;
+        }
+    }
+    &__media {
+        display: block;
+        margin: auto;
+        margin-top: 4.8rem;
+        width: 8rem;
+        padding-bottom: 3rem;
+
+        @media only screen and (min-width: 1440px) {
+            position: relative;
+            top: -19.2rem;
+            left: 39.5rem;
+            width: 11rem;
+        }
+    }
+
+    &__icon {
+        font-size: 1.7rem;
+        margin: 0.5rem;      
+
+        
+        @media only screen and (min-width: 1440px) {
+            font-size: 2.5rem;
+            margin: 0.35rem;  
+            color: red;
+        }
+
+        &:hover{
+            cursor: pointer;
+            filter: invert(65%) sepia(93%) saturate(173%) hue-rotate(127deg) brightness(250%) contrast(96%);
+        }
+    }
+
+
+
+}

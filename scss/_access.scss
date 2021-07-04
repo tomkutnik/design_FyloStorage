@@ -1,0 +1,102 @@
+.access{
+    padding: 9.7143rem 1.6285rem 0 1.6285rem;
+    background: $mainBackground;
+    width: 26.7857rem;
+
+    @media only screen and (min-width: 1440px) {
+        padding: 12.7857rem 20.5rem 0 20.5rem;
+    width: 102.8571rem;
+    }
+
+    &__card{
+        padding: 2.8142rem 3.1428rem 2.6428rem 3.1428rem;
+        background: $introBackground;
+        border-radius: 0.5rem;
+        position: relative;
+        z-index: 1;
+    
+
+        @media only screen and (min-width: 1440px) {
+            padding: 3.1857rem 2rem 0 2rem;
+            -webkit-box-shadow: 5px 5px 10px 5px hsla(216, 53%, 7%, 0.5); 
+box-shadow: 5px 5px 10px 5px hsla(215, 54%, 7%, 0.5);
+
+        }
+
+        h2{
+            text-align: center;
+            font-family: $relaway;
+            font-size: 1.3rem;
+            margin-bottom: 1.2rem;
+            @media only screen and (min-width: 1440px) {
+                font-size: 2.3rem;
+                margin-bottom: 1.7rem;
+            }
+        }
+        p{    
+            text-align: center;
+            font-size: 0.97rem;
+            line-height: 1.5rem;
+            margin-bottom: 2.2rem;
+            letter-spacing: 0.1px;
+            width: 20rem;
+            margin-left: -1.3rem;
+            @media only screen and (min-width: 1440px) {
+                margin-left: 5.5rem;
+                font-size: 0.97rem;
+                width: 47rem;
+                letter-spacing: 0.2px;
+                margin-bottom: 2.7rem;
+                
+            }
+        }
+
+        input{
+            width: 20rem;
+            height: 3.4285rem;
+            border-radius: 1.7142rem;
+            border: 0px;
+            padding: 1rem 2rem 0.7rem 2rem;
+            color: rgb(148, 148, 148);
+            font-size: 0.7571rem;
+            margin-bottom:1.8rem;
+            margin-left: -1.5rem;
+
+            @media only screen and (min-width: 1440px) {
+                margin-left: 3.5rem;
+                width: 34.5rem;
+                margin-bottom:3rem;
+            }
+        }
+
+        button{
+            width: 20rem;
+            height: 3.4285rem;
+            border-radius: 1.7142rem;
+            border: 0px;
+            padding: 1rem 3rem;
+            background: $gradient;
+            font-size: 0.9571rem;
+            font-weight: 700;
+            margin-left: -1.3rem;
+
+            @media only screen and (min-width: 1440px) {
+                margin-left: 1.85rem;
+                width: 14.25rem;
+                padding: 1rem 2rem;
+            }
+
+            &:hover{
+                background: $cyan;
+            }
+        }
+    }
+
+    &__alert{
+        color: $error;
+        font-size: 0.9rem;
+        position: absolute;
+        top: 17rem;
+        left: 7.5rem;
+    }
+}
